@@ -149,4 +149,5 @@ jupyter notebook delta_hedging_interactive.ipynb
 **Pierre Louis**
 Master's in Finance & Quantitative Engineering – ECE
 [LinkedIn](https://www.linkedin.com/in/pierre-louis75) • [Email](mailto:pierre.louis@edu.ece.fr)
+
 ---
