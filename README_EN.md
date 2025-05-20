@@ -139,11 +139,14 @@ jupyter notebook delta_hedging_interactive.ipynb
 ```
 
 ---
+
 ## 📌 Additional Resources
 - 📘 *Options, Futures, and Other Derivatives* — John C. Hull
 - 🧮 *The Concepts and Practice of Mathematical Finance* — Mark Joshi
 - 📊 *Volatility Trading* — Euan Sinclair
+
 ---
+
 ## 👨‍💻 Author
 
 **Pierre Louis**
