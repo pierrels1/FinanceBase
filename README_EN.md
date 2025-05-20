@@ -80,6 +80,7 @@ print(f"Implied Volatility: {iv:.2%}")
 
 ## 🚀 Features
 ### 1.	Black-Scholes Pricing + Greeks
+
 	•	Compute the price of a European call or put.
 	•	Display Greeks: Delta, Gamma, Vega.
 	•	Generate an interactive payoff graph.
@@ -90,6 +91,7 @@ It is the foundation of option pricing on all Equity Derivatives desks. Understa
 ⸻
 
 ### 2.	Delta Hedging Simulator
+
 	•	Create a portfolio with an option position.
 	•	Simulate daily rebalancing to dynamically hedge risk via Delta.
 	•	Visualize the performance of the hedged portfolio.
@@ -100,6 +102,7 @@ It helps understand how traders dynamically manage exposure to market moves — 
 ⸻
 
 ### 3.	Implied Volatility Calculation
+
 	•	Compute implied volatility from observed option prices by inverting Black-Scholes.
 	•	Supports different numerical solvers (e.g., Newton-Raphson).
 
@@ -107,34 +110,41 @@ It helps understand how traders dynamically manage exposure to market moves — 
 Traders use implied volatility to detect market anomalies and construct trading strategies.
 
 ⸻
-## 💾 Installation**
-### 1. Clone the repository**
+## 💾 Installation
+
+### 1. Clone the repository
 ```bash
 git clone https://github.com/your_username/FinanceBase.git
 cd FinanceBase
 ```
-### 2. Create a virtual environment**
+
+### 2. Create a virtual environment
+
 ```bash
 python -m venv .venv
 source .venv/bin/activate # macOS/Linux
 .venv\Scripts\activate # Windows
 ```
-### 3. Install dependencies**
+
+### 3. Install dependencies
+
 ```bash
 pip install -r requirements.txt
 ```
 ---
-## ▶️ Launch the interactive simulator**
+
+## ▶️ Launch the interactive simulator
 ```bash
 jupyter notebook delta_hedging_interactive.ipynb
 ```
+
 ---
-## 📌 Additional Resources**
+## 📌 Additional Resources
 - 📘 *Options, Futures, and Other Derivatives* — John C. Hull
 - 🧮 *The Concepts and Practice of Mathematical Finance* — Mark Joshi
 - 📊 *Volatility Trading* — Euan Sinclair
 ---
-## 👨‍💻 Author**
+## 👨‍💻 Author
 
 **Pierre Louis**
 Master's in Finance & Quantitative Engineering – ECE
