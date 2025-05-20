@@ -1,4 +1,7 @@
+
 # 📈 FinanceBase
+
+[English version →](README_EN.md)
 
 **FinanceBase** est un projet Python pédagogique conçu pour explorer les fondamentaux du **pricing d’options** et de la **gestion dynamique de portefeuille en produits dérivés**.  
 Il intègre trois outils-clés utilisés quotidiennement sur les desks de trading :
@@ -76,63 +79,82 @@ Idéal pour explorer l’impact de différents scénarios de marché et visualis
 ```python
 price = 5.0
 iv = implied_volatility(price, S=100, K=100, T=0.5, r=0.01, option_type="call")
-print(f"Volatilité implicite : {iv:.2%}")```
+print(f"Volatilité implicite : {iv:.2%}")
+```python 
 
+📌 **Pourquoi c’est utile ?**  
+Les traders vol utilisent la volatilité implicite pour **détecter des anomalies de marché** et concevoir des stratégies directionnelles ou neutres.
 
-📌 Pourquoi c’est utile ?
-Les traders vol utilisent la volatilité implicite pour détecter des anomalies de marché et concevoir des stratégies directionnelles ou neutres.
+---
 
-⸻
+## 🚀 Fonctionnalités clés
 
-🚀 Fonctionnalités clés
+### 1. 📐 Pricing Black-Scholes & Greeks
 
-1. 📐 Pricing Black-Scholes & Greeks
-	•	Calcule le prix théorique d’un call ou put européen.
-	•	Affiche les Greeks (Delta, Gamma, Vega).
-	•	Génère une visualisation du payoff.
+- Calcule le prix théorique d’un **call ou put européen**.
+- Affiche les **Greeks** (Delta, Gamma, Vega).
+- Génère une **visualisation du payoff**.
 
-2. 📉 Simulateur de Delta Hedging
-	•	Crée un portefeuille avec position en option + couverture.
-	•	Rebalance le portefeuille quotidiennement selon le Delta.
-	•	Suit le PnL total (cash + position delta) dans le temps.
-	•	Affiche l’imperfection de couverture liée au Gamma.
+### 2. 📉 Simulateur de Delta Hedging
 
-3. 🔍 Calcul de Volatilité Implicite
-	•	Calcule la volatilité implicite à partir d’un prix de marché.
-	•	Utilise des méthodes numériques robustes (e.g. Brent, Newton-Raphson).
-	•	Peut être intégré dans une chaîne de pricing d’options réelles.
+- Crée un portefeuille avec position en option + couverture.
+- Rebalance le portefeuille **quotidiennement selon le Delta**.
+- Suit le **PnL total** (cash + position delta) dans le temps.
+- Affiche **l’imperfection de couverture liée au Gamma**.
 
-⸻
+### 3. 🔍 Calcul de Volatilité Implicite
 
-💾 Installation
+- Calcule la **volatilité implicite** à partir d’un prix de marché.
+- Utilise des méthodes numériques robustes (e.g. Brent, Newton-Raphson).
+- Peut être intégré dans une chaîne de **pricing d’options réelles**.
 
-1. Cloner le dépôt
+---
+
+## 💾 Installation
+
+### 1. Cloner le dépôt
+
+```bash
 git clone https://github.com/ton_utilisateur/FinanceBase.git
 cd FinanceBase
+```
 
-2. Créer un environnement virtuel
+### 2. Créer un environnement virtuel
+
+```bash
 python -m venv .venv
 source .venv/bin/activate  # macOS/Linux
 .venv\Scripts\activate     # Windows
+```
 
-3. Installer les dépendances
+### 3. Installer les dépendances
+
+```bash
 pip install -r requirements.txt
+```
 
-▶️ Lancer le simulateur interactif
+---
+
+## ▶️ Lancer le simulateur interactif
+
+```bash
 jupyter notebook delta_hedging_interactive.ipynb
+```
 
+---
 
-⸻
+## 📌 Ressources complémentaires
 
-📌 Ressources complémentaires
-	•	📘 Options, Futures, and Other Derivatives — John C. Hull
-	•	🧮 The Concepts and Practice of Mathematical Finance — Mark Joshi
-	•	📊 Volatility Trading — Euan Sinclair
+- 📘 *Options, Futures, and Other Derivatives* — John C. Hull
+- 🧮 *The Concepts and Practice of Mathematical Finance* — Mark Joshi
+- 📊 *Volatility Trading* — Euan Sinclair
 
-⸻
+---
 
-👨‍💻 Auteur
+## 👨‍💻 Auteur
 
-Pierre Louis
-Master Finance & Ingénierie Quantitative – ECE
-www.linkedin.com/in/pierre-louis75 • pierre.louis@edu.ece.fr
+**Pierre Louis**  
+Master Finance & Ingénierie Quantitative – ECE  
+[LinkedIn](https://www.linkedin.com/in/pierre-louis75) • [Email](mailto:pierre.louis@edu.ece.fr)
+
+---
