@@ -80,7 +80,7 @@ Idéal pour explorer l’impact de différents scénarios de marché et visualis
 price = 5.0
 iv = implied_volatility(price, S=100, K=100, T=0.5, r=0.01, option_type="call")
 print(f"Volatilité implicite : {iv:.2%}")
-python 
+```
 
 📌 **Pourquoi c’est utile ?**  
 Les traders vol utilisent la volatilité implicite pour **détecter des anomalies de marché** et concevoir des stratégies directionnelles ou neutres.
