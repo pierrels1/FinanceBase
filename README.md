@@ -76,7 +76,7 @@ Idéal pour explorer l’impact de différents scénarios de marché et visualis
 ```python
 price = 5.0
 iv = implied_volatility(price, S=100, K=100, T=0.5, r=0.01, option_type="call")
-print(f"Volatilité implicite : {iv:.2%}")
+print(f"Volatilité implicite : {iv:.2%}")```
 
 
 📌 Pourquoi c’est utile ?
